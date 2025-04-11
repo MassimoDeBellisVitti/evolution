@@ -3,3 +3,19 @@
 *Gemfile*
 *vendor*
 *_site*
+
+# Ambienti virtuali
+.venv/
+venv/
+python=*/
+
+# File temporanei
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# VSCode / PyCharm / editor
+.vscode/
+.idea/
