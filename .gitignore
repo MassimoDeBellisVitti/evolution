@@ -19,3 +19,35 @@ __pycache__/
 # VSCode / PyCharm / editor
 .vscode/
 .idea/
+
+uv.lock
+.cache/
+
+
+# 🔥 File di lock e metadata di pacchetti
+uv.lock
+*.lock
+poetry.lock
+pdm.lock
+*.toml
+*.yaml
+*.yml
+
+# 🔥 Cache build Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# 🔥 File di cache UV o PDM
+.cache/
+.uv/
+.pdm-python/
+
+# macOS system files
+.DS_Store
